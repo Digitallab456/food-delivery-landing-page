@@ -356,7 +356,7 @@ header .right ul li a:hover {
  
      display: flex;
     justify-content: center;
-   flex-direction: column;
+   
    
    
    
@@ -443,6 +443,140 @@ header .right ul li a:hover {
 #info .wrapper .use ul li a{
     color: #000000ac;
 }
+@media (max-width: 768px) {
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:100px;
+    
+  }
+
+  header .wrapper {
+   display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+    
+  }
+
+  header .left, header .right {
+  
+   
+   
+  
+ 
+  }
+
+  header .left ul,
+  header .right ul {
+    display: none;
+    gap: 10px;
+  }
+
+  #bg .wrapper {
+    margin-top: 30px;
+    width: 90%;
+   
+   
+  
+  }
+
+  #bg .right img {
+    height: 300px;
+  }
+
+  #bg .left h1 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  #bg .left p {
+    font-size: 18px;
+  }
+#main{
+    width: 100%;
+}
+  #main .wrapper .img {
+   width: 100%;
+    gap: 20px;
+    font-size: 13px;
+  }
+  #main .wrapper .img  .left{
+    width: 100%;
+    
+  }
+  #main .wrapper .img  .left img{
+    height: 100px;
+    
+  }
+
+
+  #side .wrapper {
+    width: 90%;
+  
+    gap: 30px;
+    
+  }
+
+  #side .wrapper .right,
+  #side .left {
+   width: 80%;
+  }
+
+  #bg2 .wrapper {
+    width: 90%;
+  
+    gap: 30px;
+   
+  }
+
+  #bg2 .wrapper .right img {
+    
+   
+  }
+  #bg2 .wrapper .left  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  #bg2 .wrapper .left h1 {
+    font-size: 28px;
+  }
+
+  #bg2 .wrapper .left p {
+    font-size: 17px;
+  }
+
+  #info {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  #info .wrapper .end {
+    width: 100%;
+    gap:20px;
+   
+  }
+
+  #info .wrapper .use ul li {
+    font-size: 14px;
+  }
+}
+  #info .wrapper .use ul li  h2{
+    font-size: 14px;
+  }
+
+  #info .wrapper .use ul li .contact{
+    margin-top: -25px;
+  }
+
+
 
 
 
